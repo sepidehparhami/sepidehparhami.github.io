@@ -10,6 +10,7 @@
         <script type="text/javascript" src="https://code.highcharts.com/6/modules/exporting.js"></script>
         <script type="text/javascript" src="http://code.highcharts.com/highcharts-3d.js"></script>
         <script type="text/javascript" src="https://code.highcharts.com/6/highcharts-3d.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/annotations.js"></script>
     </head>
     <body style="margin:0;padding:0">
                 <div id="container" style="width:550px;height:400px;">Loading....</div>
@@ -35,7 +36,7 @@
                 [1, Highcharts.Color(color).brighten(-0.2).get('rgb')]
             ]
         };
-    }), "credits": {"enabled": false}, "drilldown": {}, "exporting": {}, "labels": {}, "legend": {"enabled": false}, "loading": {}, "navigation": {}, "pane": {}, "plotOptions": {"scatter": {}}, "series": {}, "subtitle": {"text": "Click and drag the plot area to rotate in space"}, "title": {"text": "Draggable box"}, "tooltip": {}, "xAxis": {"min": 0, "max": 10, "gridLineWidth": 1}, "yAxis": {"min": 0, "max": 10}, "zAxis": {"min": 0, "max": 10, "showFirstLabel": false}};
+    }), "credits": {"enabled": false}, "drilldown": {}, "exporting": {}, "labels": {}, "legend": {"enabled": false}, "loading": {}, "navigation": {}, "pane": {}, "plotOptions": {"scatter": {}}, "series": {}, "subtitle": {"text": "Click and drag the plot area to rotate in space"}, "title": {"text": "Draggable box"}, "tooltip": {"formatter": function () {                            return '<b>' + this.point.category;                        }}, "xAxis": {"min": 0, "max": 10, "gridLineWidth": 1, "categories": ["foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo", "foo"]}, "yAxis": {"min": 0, "max": 10}, "zAxis": {"min": 0, "max": 10, "showFirstLabel": false}};
 
 
  
